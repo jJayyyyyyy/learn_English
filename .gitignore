@@ -5,8 +5,8 @@ Desktop.ini
 
 # Python:
 
-# Mac
+# Mac:
 *.DS_Store
 
-
-
+# Linux:
+*.md~

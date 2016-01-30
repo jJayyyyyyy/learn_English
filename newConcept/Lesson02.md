@@ -12,4 +12,4 @@
 
 * 'That's the trouble, vicar,' answered Bill. 'It's working all right, but I'm afraid that at one o'clock it will strike thirteen times and there's nothing I can do about it.'
 
-* We'll get used to that, Bill,' said the vicar. 'Thirteen is not as good as one, but it's better than nothing. Now let's go downstairs and have a cup of tea.'
+* 'We'll get used to that, Bill,' said the vicar. 'Thirteen is not as good as one, but it's better than nothing. Now let's go downstairs and have a cup of tea.'
