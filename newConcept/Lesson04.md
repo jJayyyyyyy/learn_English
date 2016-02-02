@@ -1,0 +1,5 @@
+# `Lesson 4` The double life of Alfred Bloggs
+
+* These days people who do manual work often receive far more money than people who work in offices. People who work in offices are frequently reffered to as 'white-collar workers' for the simple reason that they always wear a collar and tie to go to work. Such is human nature, that a great many people are willing to sacrifice higher pay for the privilege of becoming white-collar workers. This can give rise to curious situations, as it did in the case of Alfred Bloggs who worked as a dust man for the Ellesmere Corporation.
+
+* When he got married, Alf was to embarrassed to say anything to his wife about his job. He simply told her that he worked for the Corporation. Every morning, he left home dressed in a smart black suit. He then changed into overalls and spent the next eight hours as a dustman.
