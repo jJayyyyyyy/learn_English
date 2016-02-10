@@ -15,6 +15,8 @@
 
     -j, --bzip2     filter the archive through bzip2
 
+    -v,				Produce verbose output, 显示详细信息
+
     -f
     
  * 对于 .tar
