@@ -1,0 +1,3 @@
+# `Lesson 25` The Cutty Sark
+
+* One of the most famous sailing ship of the nineteenth century, the *Cutty Sark*, can still be seen at Greenwich. She stands on dry land and is visited by thousands of people each year. She serves as an impressive reminder of the great ships of the past. Before they were replaced by steamships, sailing vessels like the *Cutty Sark* were used to carry tea from China and wool from Australia.
