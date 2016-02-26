@@ -1,6 +1,6 @@
 # `Lesson 31` A lovable eccentric
 
-* True eccentrices never deliberately set out to draw attention to themselves. They disregard social conventions without being conscious that they are doing anything extraordinary. This invariably wins them the love and respect of others, for they add colour to the dull routine of everyday life.
+* True eccentrics never deliberately set out to draw attention to themselves. They disregard social conventions without being conscious that they are doing anything extraordinary. This invariably wins them the love and respect of others, for they add colour to the dull routine of everyday life.
 
 * Up to the time of his death, Richard Colson was one of the most notable figures in our town. He was a shrewd and wealthy businessman, but most people in the town hardly knew anything about this side of  his life. He was known to us all as Dickie and his eccentricity had become legendary long before he died.
 
