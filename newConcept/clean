@@ -1,6 +1,13 @@
 #!/bin/sh
-folder=~/Documents/learn_English/newConcept
-cd $folder
+#folder=~/Documents/learn_English/newConcept
+#cd $folder
+
+for filename in *.md~;
+do
+    rm $filename
+done
+
+cd Unit3
 
 for filename in *.md~;
 do
