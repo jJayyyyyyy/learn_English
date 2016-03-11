@@ -38,3 +38,12 @@
     $ tar --help
     
     $ man tar
+
+
+3. 起因：ubuntu下st无法输入中文，想要重装
+    在terminal中输入subl [tab] 可以找到ST并运行，然而在`/usr/bin`, `/usr/share/applications`, 等处都没有发现sublime的执行文件，`~/.bashrc`中也没有sublime的路径(实在太乱了。。哪里都可以放。。)
+    
+    最后，从 `~/.bash_history` 找到 `/etc/environment`，在里面写了`PATH`
+    估计是参考的[这里](http://www.2cto.com/os/201304/204819.html)
+    以后要统一，不要随便放
+    
