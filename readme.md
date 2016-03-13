@@ -1,4 +1,4 @@
-* This is a repo for english learning.
+* This is a repo for English learning.
 
 * Notice that it is for self-learning, `not for business use`.
 
