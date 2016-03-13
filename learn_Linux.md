@@ -50,3 +50,31 @@
 
     以后要统一，不要随便放
     
+4. command-line arguments (in CS50 Week 2, continued, 27:19)
+
+ *  int main(int argc, string argv[])
+
+    argument vector, string argv[]表明这参数是字符串数组(数组的数组)
+
+    argument counts, int argc指明string长度
+    
+ *  比如 `$ mv test.c ..`的参数长度`argc`是`3`，第`0`个是`mv`, `1`是`test.c`, `2`是`..`即上一层目录 
+
+ *  实例(保存为`test.c`)
+    
+    ```c
+    #include <stdio.h>
+    
+    int main(int argc, char * argv[]){
+    	//c没有<string>这个类型，改用 <char **>
+    	printf("Hello, %s\n", argv[1]);
+    }
+    ```
+    
+    然后
+    
+    ```sh
+    $ make test
+    $ ./test John
+    ```
+    就会输出 `Hello, John`, 就能输入参数了
