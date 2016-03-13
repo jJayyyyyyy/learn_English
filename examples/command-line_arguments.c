@@ -2,5 +2,10 @@
 
 int main(int argc, char * argv[])
 {
-	printf("hi, %s\n", argv[1]);
+	if(argc == 1){
+		printf("Hi, there!\n");
+	}else{
+		printf("hi, %s\n", argv[1]);
+	}
+	
 }
