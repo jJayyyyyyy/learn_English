@@ -79,4 +79,4 @@
     ```
     就会输出 `Hello, John`, 就能输入参数了
     
-    注：在`/examples`中保存了`command-line_arguments.c`作为例程，可以`make`，不过名字太长不好打(make编译工程是根据文件名的)，可以用`$ clang -o test command-line_arguments.c`, 其中的test可以随便写，作为编译输出的文件，而后面要编译的文件名可以直接用`tab`
+    注：在`/learn_English/examples`中保存了`command-line_arguments.c`作为例程，可以`make`，不过名字太长不好打(`make`编译工程是根据文件名的)，可以用`$ clang -o test command-line_arguments.c`, 其中的test可以随便写，作为编译输出的文件，而后面要编译的文件名可以直接用`tab`
