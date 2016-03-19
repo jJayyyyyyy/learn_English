@@ -7,7 +7,7 @@
     根据关键词找其PID，然后可以kill
 
 
-2. [tar](http://www.jb51.net/LINUXjishu/43356.h) **解压**
+2. **[tar](http://www.jb51.net/LINUXjishu/43356.h)** **解压**
 
  *  -x extract
 
@@ -50,7 +50,7 @@
 
     以后要统一，不要随便放
     
-4. command-line arguments (in CS50 Week 2, continued, 27:19)
+4. **command-line arguments** (in CS50 Week 2, continued, 27:19)
 
  *  int main(int argc, string argv[])
 
@@ -80,3 +80,34 @@
     就会输出 `Hello, John`, 就能输入参数了
     
     注：在`/learn_English/examples`中保存了`command-line_arguments.c`作为例程，可以`make`，不过名字太长不好打(`make`编译工程是根据文件名的)，可以用`$ clang -o test command-line_arguments.c`, 其中的test可以随便写，作为编译输出的文件，而后面要编译的文件名可以直接用`tab`
+      
+5. **some handy tools**
+
+	* `$ bc` 计算器
+
+		`$ whatis bc`  
+		`bc - An arbitrary precision calculator language`
+	
+	* `$ ls -al ~`  	
+		显示`~`目录下，所有文件及其属性
+	
+		ls - list directory contents
+
+	* `$ date`	显示日期和时间
+	
+	* `$ cal`	日历
+
+
+6. **some hot keys for `man`**
+
+	key   			| function  				|
+	----  			| ---		 				|
+	[space] 		| page Down 				|
+	[Page Down] 	| page Down 				|
+	[Page Up] 	| page Up 				|
+	[Home] 		| up to home 				|
+	[End] 			| down to the end 		|
+	/xxx 			| search xxx (down) 	|
+	?xxx 			| search xxx (up) 		|
+	n, N 			| next / previous key	|
+	q    			| quit 					|
