@@ -1,3 +1,5 @@
 # `Lesson 52` Mud is mud	(实事求是)
 
 * My cousin, Harry, keeps a large curiously shaped bottle on permanent display in his study. Despite the fact that the bottle is tinted a delicate shade of green, an observant visitor would soon notice that it is filled with what looks like a thick greyish substance. If you were to ask Harry what was in the bottle, he would tell you that it contained perfumed mud. If you expressed doubt or surprise, he would immediately invite you to smell it and then to rub some into your skin. This brief experiment would dispel any further doubts you might entertain. The bottle really does contain perfumed mud. How Harry came into the possession of this outlandish stuff makes an interesting story which he is fond of relating. Further- more, the acquisition of this bottle cured him of a bad habit he had been developing for years.
+
+* 
