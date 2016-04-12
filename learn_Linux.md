@@ -111,3 +111,18 @@
 	?xxx 			| search xxx (up) 		|
 	n, N 			| next / previous key	|
 	q    			| quit 					|
+
+
+7. **ssh**
+
+	baike: Secure Shell, SSH 为建立在应用层和传输层基础上的安全协议。SSH 是目前较可靠，专为远程登录会话和其他网络服务提供安全性的协议。利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。  
+	manpage: ssh (SSH client) is a program for logging into a remote machine and for executing commands on a remote machine.
+
+	连接到树莓派：
+
+	`$ ssh pi@192.168.1.105`
+
+	移除hosts：
+
+	`$ ssh-keygen -R 192.168.1.105`
+
