@@ -190,3 +190,87 @@ man page: ssh (SSH client) is a program for logging into a remote machine and fo
 
 `$ ssh-keygen -R 192.168.1.105`
 
+
+## 9. **vi**
+
+:set nu		#显示行号
+
+:set nonu	#取消行号
+
+* **移动光标**
+
+30↓ = 光标向下移动30行
+
+n+<Enter> = 向下移动n行
+
+n+<Space> = 数字n加空格，光标向右移动n个字符距离
+
+0 = [home]
+
+$ = [end]
+
+G = 移到最后一行(大小写配合Caps Lock更快)
+
+nG = 移动到第n行，可以配合 :set nu
+
+gg = 1G = 移动到第一行
+
+* **查找与替换**
+
+/str = 向下查找str
+
+?str = 向上查找str
+
+n = 查找下一个
+
+N = 查找上一个
+
+:100,200s/aaa/bbb/g = 从第100行到第200行查找aaa，并替换为bbb
+
+:1,$s/aaa/bbb/gc = 从第1行到最后一行查找aaa，并替换为bbb，c表示需要用户confirm确认
+
+* **删除、复制、粘贴**
+
+x = Del
+
+X = Backspace
+
+dd = 删除整行
+
+ndd = 从这行开始删除n行
+
+dgg = 从这行开始向上删除到第一行
+
+dG = 从这行开始向上删除到最后一行
+
+d$ = 从光标删到本行最后
+
+d0 = 从光标删到本行开头
+
+yy = 复制本行，nyy ygg yG y0 y$类比dd
+
+p = 粘贴到下一行
+
+P = 粘贴到上一行
+
+J = 与下一行合并
+
+. = 重复上一个操作(Word里面的F4)
+
+u = [ctrl+z] 撤销
+
+ctrl+r = [ctrl+y] 重做
+
+* **Visual Block 块选**
+
+可以加数字
+
+v = 选中所在字符
+
+V = 选中所在行
+
+ctrl+v = 纵向选择
+
+
+
+
