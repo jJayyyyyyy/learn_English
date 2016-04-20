@@ -88,10 +88,14 @@
 	`$ whatis bc`  
 	`bc - An arbitrary precision calculator language`
 	
-* `$ ls -al ~`  	
+* `$ ls -al ~`  
 	显示`~`目录下，所有文件及其属性
 	
 	ls - list directory contents
+
+	**通配符**
+
+	`$ ls ~/news*` 可以得到`~`目录及其子目录下有哪些文件名包含`news`
 
 * `$ date`	显示日期和时间
 	
@@ -177,7 +181,7 @@ $ dirname /etc/hosts
 通配符 `*` `?`
 
 
-## 8. **ssh**
+## 8. ssh
 
 baike: Secure Shell, SSH 为建立在应用层和传输层基础上的安全协议。SSH 是目前较可靠，专为远程登录会话和其他网络服务提供安全性的协议。利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。  
 man page: ssh (SSH client) is a program for logging into a remote machine and for executing commands on a remote machine.
@@ -191,13 +195,13 @@ man page: ssh (SSH client) is a program for logging into a remote machine and fo
 `$ ssh-keygen -R 192.168.1.105`
 
 
-## 9. **vi**
+## 9. vi
 
 :set nu		#显示行号
 
 :set nonu	#取消行号
 
-* **移动光标**
+#### 9.1 移动光标
 
 30↓ = 光标向下移动30行
 
@@ -215,7 +219,7 @@ nG = 移动到第n行，可以配合 :set nu
 
 gg = 1G = 移动到第一行
 
-* **查找与替换**
+#### 9.2 查找与替换
 
 /str = 向下查找str
 
@@ -229,7 +233,7 @@ N = 查找上一个
 
 :1,$s/aaa/bbb/gc = 从第1行到最后一行查找aaa，并替换为bbb，c表示需要用户confirm确认
 
-* **删除、复制、粘贴**
+#### 9.3 删除、复制、粘贴
 
 x = Del
 
@@ -261,7 +265,7 @@ u = [ctrl+z] 撤销
 
 ctrl+r = [ctrl+y] 重做
 
-* **Visual Block 块选**
+#### 9.4 Visual Block 块选
 
 可以加数字
 
@@ -270,7 +274,4 @@ v = 选中所在字符
 V = 选中所在行
 
 ctrl+v = 纵向选择
-
-
-
 
