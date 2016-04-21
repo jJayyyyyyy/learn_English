@@ -6,6 +6,16 @@
 
 	根据关键词找其PID，然后可以kill
 
+	举例: sublime text中写基于python的udp_socket, 直接在st中build了，结果停不下来了。。那么
+
+	```bash
+	$ pgrep -l pyt
+	22509 python3
+	$ kill 22509
+	
+	# 或者直接
+	$ kill `pgrep python`
+	```
 
 ## 2. **[tar](http://www.jb51.net/LINUXjishu/43356.h)** **解压**
 
