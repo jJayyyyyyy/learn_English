@@ -285,3 +285,7 @@ V = 选中所在行
 
 ctrl+v = 纵向选择
 
+##	10
+
+terminal中，`Ctrl + Insert` = 复制，`Shift + Insert` = 粘贴
+
