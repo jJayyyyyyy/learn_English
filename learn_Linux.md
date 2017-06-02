@@ -111,6 +111,22 @@
 	
 * `$ cal`	日历
 
+*	`wc`	word count, 一个统计工具
+
+	```bash
+	$ whatis wc
+	wc (1)               - print newline, word, and byte counts for each file
+	
+	$ cat test.cpp | wc -c
+	1143	# test.cpp has the size of 1143 bytes
+	$ cat test.cpp | wc -l
+	73	# test.cpp has 73 lines in total
+	$ ls -1 | wc -l
+	63	# there are 63 files/folders in the current folder. use ls -1 to make sure each file takes up 1 line
+	$ ls -1 | grep '^m' | wc -l
+	2	# there are 2 files/folders whose name begins with character 'm'
+	```
+		
 
 ## 6. **some hot keys for `man`**
 
